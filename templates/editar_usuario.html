@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Produto</title>
+    <link rel="stylesheet" href="/static/usuario.css">
+</head>
+<body>
+    <a class="voltar" href="/usuario">Voltar</a>
+    <h2>Editar Usuário</h2>
+
+    <form action="{{ url_for('usuario_bp.atualizar_usuario', id_usuarios=usuario.id_usuarios) }}" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" value="{{ usuario.nome_usuarios }}" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="{{ usuario.email }}" step="0.01" required>
+         
+        <label for="senha">Senha:</label>
+        <input type="senha" id="senha" name="senha" value="{{usuario.senha}}" required>
+        
+        <button type="submit">Salvar Alterações</button>
+    </form>
+</body>
+</html>

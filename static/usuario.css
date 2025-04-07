@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:  #bbe1fa;
+    text-align: center;
+}
+
+.container{
+    background: #f0f5f9;
+    width:40%;
+    margin: 50px auto;
+    padding: 3%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h2 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #0f4c75;
+    color: white;
+    border: none;
+    padding: 3%;
+    width: 80%;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1c70ca;
+}
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+.voltar{
+    background-color: #0f4c75;
+    color: white;
+    border: none;
+    padding: 20px;
+    width: 20px;
+    height: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 1%;
+    background-color: rgb(231, 227, 221);
+    font-weight: bold;
+}
+.lista{
+    background-color:  #f0f5f9;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 5%;
+    padding: 2%;
+}
+li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start ;
+    margin: 5%;
+    padding: 2%;
+}
+.bt{
+    background-color: #0f4c75;
+    color: white;
+    border: none;
+    padding: 2%;
+    height: 10%;
+    width: 38%;
+    margin: 1%;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contbt{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    padding: 1%;
+    position: absolute; right: 5%;
+}
